@@ -1,0 +1,67 @@
+# === C++ build files ===
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# === Qt specific ===
+*.pro.user
+*.qmake.stash
+*.autosave
+
+# === Visual Studio ===
+*.sdf
+*.suo
+*.user
+*.vcxproj.user
+*.VC.db
+*.ncb
+*.aps
+*.cache
+*.ilk
+*.ipch
+*.log
+*.tlog
+*.pdb
+
+# === Build output directories ===
+build/
+release/
+debug/
+x64/
+x86/
+Release/
+Debug/
+
+# === Backup and system files ===
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Compiled UI files ===
+ui_*.h
+moc_*.cpp
+moc_*.o
+*.moc
+
+# === Generated Qt translation and plugin files ===
+*.qm
+*.qrc
+*.rcc
+*.qch
+*.qdoc
+*.qhc
+
+# === Other ===
+*.log
+*.stackdump
+*.plist
+
+# === Git ===
+!.gitignore
