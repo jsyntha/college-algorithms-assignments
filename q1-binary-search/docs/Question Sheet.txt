@@ -1,0 +1,41 @@
+Assessment 3 - Binary Search of an Unordered Array
+
+Question 1
+
+Extend and modify the code from the lectures on Binary Search of an ordered array to do the following:
+
+1. The program must accept an array of 14 strings (not in order):
+
+   "Jon", "Dot", "Eva", "Roy", "Guy", "Jan", "Tom", "Jim", "Ann", "Kim", "Ron", "Tim", "Kay", "Amy"
+
+2. Now use a suitable sorting algorithm to sort the array.
+   You must call on your knowledge of strings as well (e.g., rewrite Insertion Sort, Bubble Sort, Selection Sort to deal with strings and incorporate it into your solution).
+
+3. Now adjust your binary search of an ordered array code to allow the user to enter a string and establish its position in the ordered array if it exists.
+
+Here is a version that I mocked up in Java. You may use C++, or you may like to try C#.
+
+
+Question 2
+
+The following exercise will use the principles that you have learned in the Binary Search of an Ordered Array lectures.
+
+Program chooses the number to be guessed by selecting a random integer between 1 and 1000.
+
+The application displays the prompt:
+
+    Guess a number between 1 and 1000
+
+The user has a maximum of 10 guesses to figure out the number. The user types a guess and presses ENTER.
+
+If the guess is incorrect, the application displays either:
+
+    Too High, Try Again
+
+    OR
+
+    Too Low, Try Again
+
+...and waits for another guess.
+
+When the user guesses the number correctly, one of the following messages will appear:
