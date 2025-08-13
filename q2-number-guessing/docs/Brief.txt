@@ -1,0 +1,18 @@
+Q2 – Guess The Number
+
+Design and implement a program that plays a "Guess the Number" game:
+
+• The program randomly selects a number between 1 and 1000.
+• The player has up to 10 attempts to guess the correct number.
+• After each guess, the program provides feedback:
+    - “Too High, Try Again” if the guess is higher than the target.
+    - “Too Low, Try Again” if the guess is lower than the target.
+• When the number is guessed:
+    - If guessed in fewer than 10 tries: display a special success message.
+    - If guessed in exactly 10 tries: display a different success message.
+• If the number is not guessed within 10 attempts: display a message encouraging better performance next time.
+
+Additional requirements:
+• Create both a console version and a GUI version of the application.
+• For the GUI, use an input field for guesses, display messages in the interface, and provide a way to reset and start a new game.
+• Implement efficient guessing strategies, allowing the player to logically narrow the range with each attempt.
